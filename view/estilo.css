@@ -1,0 +1,143 @@
+.slider .track {
+    -fx-background-color: #2b2b2b;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 10px;
+}
+
+.slider .thumb {
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #ff4d4d;
+    -fx-cursor: hand;
+}
+
+.slider-azul .thumb {
+    -fx-background-color: #00ccff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 204, 255, 0.8), 10, 0, 0, 0);
+}
+
+.slider-azul .thumb:hover {
+    -fx-background-color: #66e0ff;
+}
+
+.botao-start {
+    -fx-background-color: transparent;
+    -fx-border-color: #00ccff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #00ccff;
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 24px;
+    -fx-padding: 10px 40px;
+}
+
+.botao-start:hover {
+    -fx-background-color: #00ccff;
+    -fx-text-fill: #1a1a1a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 204, 255, 0.8), 15, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+
+.combo-box-neon {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #ff0033;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.combo-box-neon .list-cell {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-weight: bold;
+}
+
+.combo-box-neon .arrow {
+    -fx-background-color: #ff0033;
+}
+.combo-box-neon .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box-neon .list-view {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #ff0033;
+}
+
+.combo-box-neon .list-view .list-cell {
+    -fx-text-fill: white;
+    -fx-padding: 8px;
+    -fx-background-color: #1a1a1a;
+}
+
+.combo-box-neon .list-view .list-cell:selected {
+    -fx-background-color: #ff0033;
+    -fx-text-fill: white;
+}
+
+.combo-box-neon .list-view .list-cell:hover {
+    -fx-background-color: #ff0033;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.botao-reset {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #ff9900;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #ff9900;
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 20px;
+    -fx-padding: 8px 30px;
+}
+
+.botao-reset:hover {
+    -fx-background-color: #ff9900;
+    -fx-text-fill: #1a1a1a;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 153, 0, 0.8), 15, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.botao-voltar {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #00ccff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #00ccff;
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 18px;
+    -fx-padding: 8px 20px;
+}
+
+.botao-voltar:hover {
+    -fx-background-color: #00ccff;
+    -fx-text-fill: #1a1a1a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 204, 255, 0.8), 15, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.texto-painel {
+    -fx-text-fill: #2b2b2b;
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 18px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.5), 5, 0, 0, 0);
+}
+
+.texto-painel2 {
+    -fx-text-fill: #2b2b2b;
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.5), 5, 0, 0, 0);
+}

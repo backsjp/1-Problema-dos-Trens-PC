@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.telaCorridaController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/fundocor.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="404.0" fitWidth="1322.0" layoutX="-149.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/metalpainel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="1024.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pista.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderVelocidade01" layoutX="187.0" layoutY="649.0" max="5.0" value="1.0" />
+      <Slider fx:id="sliderVelocidade02" layoutX="676.0" layoutY="649.0" max="5.0" stylesheets="@estilo.css" value="1.0">
+         <styleClass>
+            <String fx:value="#sliderAzul" />
+            <String fx:value="slider-azul" />
+         </styleClass></Slider>
+      <ImageView fx:id="imageCarro02" fitHeight="90.0" fitWidth="158.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/f1azul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro01" fitHeight="90.0" fitWidth="158.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" scaleZ="0.0">
+         <image>
+            <Image url="@../img/f1vermelho.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="boxSelect02" layoutX="438.0" layoutY="621.0" prefWidth="150.0" styleClass="combo-box-neon" />
+      <Button fx:id="buttonReset" layoutX="457.0" layoutY="671.0" mnemonicParsing="false" styleClass="botao-reset" text="RESET" />
+      <Button fx:id="buttonSair02" alignment="TOP_RIGHT" layoutX="960.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/simbolo-de-botao-de-alerta-de-erro.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="buttonVoltar" alignment="BOTTOM_LEFT" layoutX="41.0" layoutY="693.0" mnemonicParsing="false" styleClass="botao-voltar" text="VOLTAR" />
+      <Label layoutX="415.0" layoutY="582.0" styleClass="texto-painel" stylesheets="@estilo.css" text="Altere a posição dos carros:" />
+      <Label layoutX="203.0" layoutY="627.0" styleClass="texto-painel2" text="Velocidade do carro 1:" />
+      <Label layoutX="691.0" layoutY="627.0" styleClass="texto-painel2" text="Velocidade do carro 2:" />
+   </children>
+</AnchorPane>
